@@ -24,13 +24,20 @@ a {
     color: inherit;
 }
 
-button {
+.button-signup {
     background-color: var(--button-color);
     color: #F9FAF8;
     padding: 4px 16px;
     border-radius: 6px;
     border: var(--button-color);
+    transition-duration: 0.4s;
+    display: flex;
+    flex-shrink: 0;
+    
 }
+
+.button-signup:hover {background-color: #1b6ff6;}
+.button-signup:active {background-color: #2063cf;}
 
 .logo{
     font-size: 24px;
