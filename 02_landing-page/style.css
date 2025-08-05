@@ -43,3 +43,13 @@ button {
     font-size: 18px;
     color: var(--white-grey);
 }
+
+.header-nav {
+    display: flex;
+    flex: 1;
+}
+
+.hero-section {
+    display: flex;
+    flex: 1;
+}
