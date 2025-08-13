@@ -53,10 +53,10 @@ a {
 
 .header-nav {
     display: flex;
-    flex: 1;
+    
 }
 
-.hero-section {
+.hero-section { 
     display: flex;
     flex: 1;
 }
