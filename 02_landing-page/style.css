@@ -17,6 +17,7 @@ h1 {
 
 ul {
     list-style: none;
+    display: flex;
 }
 
 a {
@@ -41,7 +42,17 @@ a {
 
 .logo{
     font-size: 24px;
+    margin: 18px;
+}
 
+.header-nav {
+    display: flex;
+}
+
+.nav-right {
+    margin: 18px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .section-one {
@@ -49,14 +60,11 @@ a {
     background-color: var(--dark-background);
     font-size: 18px;
     color: var(--white-grey);
-}
+}    
 
-.header-nav {
-    display: flex;
-    
-}
+
+
 
 .hero-section { 
     display: flex;
-    flex: 1;
 }
