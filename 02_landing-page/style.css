@@ -17,7 +17,6 @@ h1 {
 
 ul {
     list-style: none;
-    display: flex;
 }
 
 a {
@@ -52,6 +51,7 @@ a {
 .nav-right {
     margin: 18px;
     display: flex;
+    flex: 1;
     justify-content: space-around;
 }
 
