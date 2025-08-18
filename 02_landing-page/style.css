@@ -2,6 +2,8 @@
     --dark-background: #1F2937;
     --button-color: #3882F8;
     --white-grey: #E5E7EB;
+    --button-hover-color: #206be4;
+    --button-click-color: #1955b4;
 }
 
 
@@ -36,8 +38,8 @@ a {
     
 }
 
-.button-signup:hover {background-color: #206be4;}
-.button-signup:active {background-color: #1955b4;}
+.button-signup:hover {background-color: var(--button-hover-color);}
+.button-signup:active {background-color: var(--button-click-color);}
 
 .section-one {
     /* background-image: linear-gradient(to right, var(--dark-background), #F9FAF8); */
