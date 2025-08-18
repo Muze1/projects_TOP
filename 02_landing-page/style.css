@@ -68,10 +68,7 @@ a {
     gap: 16px;
 }
 
-
-
-
-
 .hero-section { 
     display: flex;
+    flex-flow: column wrap;
 }
