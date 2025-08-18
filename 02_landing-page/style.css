@@ -46,6 +46,9 @@ a {
     background-color: var(--dark-background);
     font-size: 18px;
     color: var(--white-grey);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .logo {
