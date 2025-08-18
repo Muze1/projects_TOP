@@ -39,7 +39,14 @@ a {
 .button-signup:hover {background-color: #206be4;}
 .button-signup:active {background-color: #1955b4;}
 
-.logo{
+.section-one {
+    /* background-image: linear-gradient(to right, var(--dark-background), #F9FAF8); */
+    background-color: var(--dark-background);
+    font-size: 18px;
+    color: var(--white-grey);
+}
+
+.logo {
     font-size: 24px;
     margin: 18px;
     display: flex;
@@ -56,12 +63,6 @@ a {
     gap: 16px;
 }
 
-.section-one {
-    /* background-image: linear-gradient(to right, var(--dark-background), #F9FAF8); */
-    background-color: var(--dark-background);
-    font-size: 18px;
-    color: var(--white-grey);
-}    
 
 
 
