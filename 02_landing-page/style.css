@@ -70,5 +70,9 @@ a {
 
 .hero-section { 
     display: flex;
+}
+
+.hero-text {
+    display: flex;
     flex-flow: column wrap;
 }
