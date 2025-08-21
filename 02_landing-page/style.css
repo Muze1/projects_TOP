@@ -27,7 +27,6 @@ a {
 }
 
 .section-one {
-    /* background-image: linear-gradient(to right, var(--dark-background), #F9FAF8); */
     background-color: var(--dark-background);
     font-size: 18px;
     color: var(--white-grey);
