@@ -34,8 +34,8 @@ a {
     border: var(--button-color);
     transition-duration: 0.4s;
     display: flex;
-    flex-shrink: 0;
-    
+    justify-content: center;
+    width: 90px;
 }
 
 .button-signup:hover {background-color: var(--button-hover-color);}
@@ -77,4 +77,8 @@ a {
 .hero-text {
     display: flex;
     flex-flow: column wrap;
+}
+
+.hero-subtext {
+    margin: 0 32px 12px 0;
 }
