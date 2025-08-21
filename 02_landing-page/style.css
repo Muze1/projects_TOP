@@ -26,6 +26,8 @@ a {
     color: inherit;
 }
 
+/* SECTION ONE */
+
 .section-one {
     background-color: var(--dark-background);
     font-size: 18px;
