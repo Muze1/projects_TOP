@@ -88,3 +88,17 @@ a {
 
 
 /* Section Two */
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subsections {
+    display: flex;
+}
+
+.box {
+
+}
