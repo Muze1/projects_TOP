@@ -157,5 +157,6 @@ h2 {
 .quote-from {
     font-weight: bold;
     display: flex;
-    align-self: flex-end;
+    /* align-self: flex-end; */
+    margin-left: 40px;
 }
