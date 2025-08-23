@@ -39,14 +39,15 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 32px 100px;
+    padding: 16px 100px 100px 100px;
 }
 
 .header-nav {
     display: flex;
     justify-content: flex-end;
-    align-items: baseline;
+    align-items: center;
     margin-bottom: 80px;
+    max-width: 84%;
 }
 
 .logo {
@@ -144,10 +145,12 @@ h2 {
 /* Section Three */
 
 .section-three {
-    background-color: #E5E7EB;
+    background-color: var(--white-grey);
     padding: 100px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-text {
@@ -158,9 +161,15 @@ h2 {
     font-size: 32px;
     font-weight: 300;
     font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
 }
 
 .quote-from {
     font-weight: bold;
     text-align: right;
 }
+
+/* Section Four */
