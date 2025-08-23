@@ -109,21 +109,24 @@ h2 {
 .subsections {
     display: flex;
     justify-content: center;
+    margin-top: 32px;
 }
 .segment {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     flex: 1;
     min-width: 200px;
     max-width: 250px;
+    
 }
 
 .box {
     width: 150px;
     height: 150px;
     border: 4px solid var(--button-color);
-    border-radius: 6px;
+    border-radius: 12px;
     box-sizing: border-box;
     margin: 8px;
     padding: 8px;
@@ -132,8 +135,27 @@ h2 {
 .text {
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
 }
 
 /* Section Three */
 
+.section-three {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 32px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-from {
+    font-weight: bold;
+    display: flex;
+    align-self: flex-end;
+}
