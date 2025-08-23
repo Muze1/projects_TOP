@@ -93,11 +93,23 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 80px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: (var(--dark-background));
 }
 
 .subsections {
     display: flex;
     justify-content: center;
+}
+.segment {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .box {
@@ -108,6 +120,7 @@ a {
     margin: 8px;
     padding: 8px;
     background-color: var(--button-color);
+    box-sizing: border-box;
 }
 
 .text {
