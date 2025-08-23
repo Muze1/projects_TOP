@@ -6,6 +6,10 @@
     --button-click-color: #1955b4;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: Roboto, system-ui;
