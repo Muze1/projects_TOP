@@ -177,6 +177,7 @@ h2 {
 .section-four {
     padding: 100px;
     display: flex;
+    justify-content: center;
 }
 
 .card {
@@ -184,7 +185,9 @@ h2 {
     padding: 40px 100px;
     border-radius: 8px;
     display: flex;
-    gap: 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
 }
 
 .card-text {
@@ -211,7 +214,11 @@ h2 {
     justify-content: center;
     align-items: center;
     width: 90px;
+    height: 28px;
 }
 
 .signup-button:hover {background-color: var(--button-color);}
 .signup-button:active {background-color: var(--button-click-color);}
+
+/* Footer */
+
