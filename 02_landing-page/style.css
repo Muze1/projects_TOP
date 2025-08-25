@@ -39,7 +39,7 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 16px 100px 100px 100px;
+    padding: 16px 100px 100px 200px;
 }
 
 .header-nav {
@@ -47,7 +47,7 @@ a {
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 80px;
-    max-width: 84%;
+    max-width: 91%;
 }
 
 .logo {
@@ -98,7 +98,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 80px;
+    margin: 100px;
 }
 
 h2 {
@@ -146,7 +146,7 @@ h2 {
 
 .section-three {
     background-color: var(--white-grey);
-    padding: 100px;
+    padding: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,12 +182,12 @@ h2 {
 
 .card {
     background-color: var(--button-color);
-    padding: 40px 100px;
+    padding: 60px 160px;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 72px;
+    gap: 80px;
 }
 
 .card-text {
@@ -222,3 +222,10 @@ h2 {
 
 /* Footer */
 
+.footer {
+    background-color: var(--dark-background);
+    padding: 32px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
