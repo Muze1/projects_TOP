@@ -64,6 +64,8 @@ a {
 
 .hero-section { 
     display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
 }
 
 .hero-text {
@@ -75,6 +77,17 @@ a {
     margin: 0 32px 12px 0;
 }
 
+.placeholder-image {
+    width: 250px;
+    height: 250px;
+    background-color: #495668;
+    border: 1px solid #7c8ca2;
+    border-radius: 4px;
+    color: #b1b2b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .button-signup {
     background-color: var(--button-color);
